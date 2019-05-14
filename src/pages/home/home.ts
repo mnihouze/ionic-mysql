@@ -93,7 +93,7 @@ export class HomePage {
 
         loader.present().then(() => {
 
-          this.http.post("http://localhost/ionic/login.php", data, options)
+          this.http.post("http://mnihouze.com.br/ionic/login.php", data, options)
 
             .map(res => res.json())
 
